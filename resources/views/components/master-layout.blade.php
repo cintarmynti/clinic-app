@@ -12,7 +12,7 @@
     @include('layouts.navbar')
 
     {{-- Page Content --}}
-    <main class="container mx-auto px-4 py-6">
+    <main class="container">
         {{ $slot }}
     </main>
 
