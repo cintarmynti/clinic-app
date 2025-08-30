@@ -132,34 +132,34 @@
         </div>
     </section>
 
-    <section class="bg-white py-12 px-36">
+    <!-- Section 1 -->
+    <section class="bg-white py-12 px-6 md:px-16 lg:px-36">
         <div class="container mx-auto flex flex-col lg:flex-row items-center gap-10">
-
             <!-- Bagian Kiri: Teks -->
             <div class="w-full lg:w-1/2">
                 <!-- Judul -->
                 <div>
                     <div class="h-1 w-12 bg-teal-400 mb-4"></div>
-                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 relative">
+                    <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                         Apa anda pernah <br> mengalami hal ini?
                     </h2>
                 </div>
 
                 <!-- List Pertanyaan -->
                 <div class="space-y-4">
-                    <div class="bg-cyan-100 text-gray-800 px-5 py-3 rounded-lg shadow-sm">
+                    <div class="bg-cyan-100 text-gray-800 px-4 sm:px-5 py-3 rounded-lg shadow-sm">
                         Ingin berobat tapi tidak punya waktu ke Rumah Sakit / Klinik?
                     </div>
-                    <div class="bg-cyan-100 text-gray-800 px-5 py-3 rounded-lg shadow-sm">
+                    <div class="bg-cyan-100 text-gray-800 px-4 sm:px-5 py-3 rounded-lg shadow-sm">
                         Pernah dirawat di Rumah Sakit / Klinik tapi tidak nyaman?
                     </div>
-                    <div class="bg-cyan-100 text-gray-800 px-5 py-3 rounded-lg shadow-sm">
+                    <div class="bg-cyan-100 text-gray-800 px-4 sm:px-5 py-3 rounded-lg shadow-sm">
                         Sedang sakit dan ingin segera konsultasi?
                     </div>
-                    <div class="bg-cyan-100 text-gray-800 px-5 py-3 rounded-lg shadow-sm">
+                    <div class="bg-cyan-100 text-gray-800 px-4 sm:px-5 py-3 rounded-lg shadow-sm">
                         Sakit tapi sulit ke Rumah Sakit / Klinik?
                     </div>
-                    <div class="bg-cyan-100 text-gray-800 px-5 py-3 rounded-lg shadow-sm">
+                    <div class="bg-cyan-100 text-gray-800 px-4 sm:px-5 py-3 rounded-lg shadow-sm">
                         Sudah beli obat tapi lama sembuh?
                     </div>
                 </div>
@@ -168,138 +168,165 @@
             <!-- Bagian Kanan: Gambar -->
             <div class="w-full lg:w-1/2 flex justify-center items-center">
                 <img src="{{ asset('images/coronavirus-sample-procedure.jpg') }}" alt="Dokter"
-                    class="relative z-10 w-full h-auto object-cover rounded-xl shadow-lg">
+                    class="w-full max-w-md lg:max-w-full h-auto object-cover rounded-xl shadow-lg">
             </div>
-
         </div>
     </section>
 
-
-    <section class="bg-white py-12 px-36">
+    <!-- Section 2 -->
+    <section class="bg-white py-12 px-6 md:px-16 lg:px-36">
         <div class="container mx-auto flex flex-col lg:flex-row items-center gap-10">
 
-            <!-- Bagian Kiri: Gambar -->
-            <div class="w-full lg:w-1/2 flex justify-center lg:justify-start">
-                <div class="relative w-full">
-                    <img src="{{ asset('images/elderly-female-smiling-with-doctor-visiting-senior-patient-woman-hospital-ward.jpg') }}"
-                        alt="Dokter" class="rounded-xl w-full h-auto object-cover">
-                    <!-- Background shape pink -->
-                    <div class="absolute -top-10 -left-10 w-72 h-72 bg-pink-200 rounded-full -z-10"></div>
-                </div>
-            </div>
-
             <!-- Bagian Kanan: Teks & List -->
-            <div class="w-full lg:w-1/2">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Kami punya solusinya!</h2>
-                <ul class="space-y-4">
-                    <li class="bg-pink-100 rounded-lg px-4 py-2">Dapatkan layanan nyaman dan terpercaya</li>
-                    <li class="bg-pink-100 rounded-lg px-4 py-2">Kami menyediakan jasa layanan ke tempat Anda</li>
-                    <li class="bg-pink-100 rounded-lg px-4 py-2">Tenaga kesehatan yang ahli dan profesional</li>
-                    <li class="bg-pink-100 rounded-lg px-4 py-2">Fasilitas lengkap sesuai dengan kebutuhan Anda</li>
-                    <li class="bg-pink-100 rounded-lg px-4 py-2">Konsultasi gratis sepuasnya pasca layanan</li>
-                    <li class="bg-pink-100 rounded-lg px-4 py-2">Cepat dan sigap langsung ke tempat Anda</li>
+            <div class="w-full lg:w-1/2 order-1 lg:order-2">
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                    Kami punya solusinya!
+                </h2>
+                <ul class="space-y-3 sm:space-y-4">
+                    <li class="bg-pink-100 rounded-lg px-3 sm:px-4 py-2">Dapatkan layanan nyaman dan terpercaya</li>
+                    <li class="bg-pink-100 rounded-lg px-3 sm:px-4 py-2">Kami menyediakan jasa layanan ke tempat Anda
+                    </li>
+                    <li class="bg-pink-100 rounded-lg px-3 sm:px-4 py-2">Tenaga kesehatan yang ahli dan profesional</li>
+                    <li class="bg-pink-100 rounded-lg px-3 sm:px-4 py-2">Fasilitas lengkap sesuai dengan kebutuhan Anda
+                    </li>
+                    <li class="bg-pink-100 rounded-lg px-3 sm:px-4 py-2">Konsultasi gratis sepuasnya pasca layanan</li>
+                    <li class="bg-pink-100 rounded-lg px-3 sm:px-4 py-2">Cepat dan sigap langsung ke tempat Anda</li>
                 </ul>
 
-                <button class="mt-8 bg-pink-500 hover:bg-pink-600 text-white font-semibold px-6 py-3 rounded-lg">
+                <button
+                    class="mt-6 sm:mt-8 bg-pink-500 hover:bg-pink-600 text-white font-semibold px-5 sm:px-6 py-3 rounded-lg">
                     Konsultasi Sekarang
                 </button>
             </div>
 
+            <!-- Bagian Kiri: Gambar -->
+            <div class="w-full lg:w-1/2 flex justify-center lg:justify-start order-2 lg:order-1">
+                <div class="relative w-full max-w-md lg:max-w-full">
+                    <img src="{{ asset('images/elderly-female-smiling-with-doctor-visiting-senior-patient-woman-hospital-ward.jpg') }}"
+                        alt="Dokter" class="rounded-xl w-full h-auto object-cover">
+                    <!-- Background shape pink -->
+                    <div
+                        class="absolute -top-6 sm:-top-10 -left-6 sm:-left-10 w-48 sm:w-72 h-48 sm:h-72 bg-pink-200 rounded-full -z-10">
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
-    <section class="py-12 px-36">
-        <div class="container mx-auto px-6 text-center">
+
+
+    <section class="py-12 px-6 md:px-16 lg:px-36">
+        <div class="container mx-auto px-4 text-center">
             <!-- Judul Section -->
             <div class="mb-10">
-                <h2 class="text-3xl font-bold text-gray-900">Layanan Terbaik Kami</h2>
+                <h2 class="text-2xl sm:text-3xl font-bold text-gray-900">Layanan Terbaik Kami</h2>
                 <div class="w-16 h-1 bg-teal-400 mx-auto mt-2"></div>
             </div>
 
             <!-- Grid Layanan -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8">
                 <!-- Card Layanan -->
                 <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
-                    <img src="{{asset('images/1.svg')}}" alt="Infus Vitamin" class="w-28 h-28 mb-4">
-                    <h3 class=" text-lg text-gray-900">INFUS VITAMIN</h3>
+                    <img src="{{ asset('images/1.svg') }}" alt="Infus Vitamin"
+                        class="w-20 h-20 sm:w-28 sm:h-28 mb-4">
+                    <h3 class="text-base sm:text-lg text-gray-900">INFUS VITAMIN</h3>
                 </div>
 
                 <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
-                    <img src="{{asset('images/2.svg')}}" alt="Dokter ke Rumah" class="w-28 h-28 mb-4">
-                    <h3 class=" text-lg text-gray-900">DOKTER KE RUMAH</h3>
+                    <img src="{{ asset('images/2.svg') }}" alt="Dokter ke Rumah"
+                        class="w-20 h-20 sm:w-28 sm:h-28 mb-4">
+                    <h3 class="text-base sm:text-lg text-gray-900">DOKTER KE RUMAH</h3>
                 </div>
 
                 <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
-                    <img src="{{asset('images/3.svg')}}" alt="Khitanan di Rumah" class="w-28 h-28 mb-4">
-                    <h3 class=" text-lg text-gray-900">KHITANAN DI RUMAH</h3>
+                    <img src="{{ asset('images/3.svg') }}" alt="Khitanan di Rumah"
+                        class="w-20 h-20 sm:w-28 sm:h-28 mb-4">
+                    <h3 class="text-base sm:text-lg text-gray-900">KHITANAN DI RUMAH</h3>
                 </div>
 
                 <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
-                    <img src="{{asset('images/4.svg')}}" alt="Perawatan Luka" class="w-28 h-28 mb-4">
-                    <h3 class=" text-lg text-gray-900">PERAWATAN LUKA</h3>
+                    <img src="{{ asset('images/4.svg') }}" alt="Perawatan Luka"
+                        class="w-20 h-20 sm:w-28 sm:h-28 mb-4">
+                    <h3 class="text-base sm:text-lg text-gray-900">PERAWATAN LUKA</h3>
                 </div>
 
-                 <!-- Card Layanan -->
+                <!-- Card lainnya tetap sama, tinggal copy -->
                 <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
-                    <img src="{{asset('images/5.svg')}}" alt="Infus Vitamin" class="w-28 h-28 mb-4">
-                    <h3 class=" text-lg text-gray-900">INFUS VITAMIN</h3>
-                </div>
-
-                <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
-                    <img src="{{asset('images/6.svg')}}" alt="Dokter ke Rumah" class="w-28 h-28 mb-4">
-                    <h3 class=" text-lg text-gray-900">DOKTER KE RUMAH</h3>
+                    <img src="{{ asset('images/1.svg') }}" alt="Infus Vitamin"
+                        class="w-20 h-20 sm:w-28 sm:h-28 mb-4">
+                    <h3 class="text-base sm:text-lg text-gray-900">INFUS VITAMIN</h3>
                 </div>
 
                 <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
-                    <img src="{{asset('images/7.svg')}}" alt="Khitanan di Rumah" class="w-28 h-28 mb-4">
-                    <h3 class=" text-lg text-gray-900">KHITANAN DI RUMAH</h3>
+                    <img src="{{ asset('images/2.svg') }}" alt="Dokter ke Rumah"
+                        class="w-20 h-20 sm:w-28 sm:h-28 mb-4">
+                    <h3 class="text-base sm:text-lg text-gray-900">DOKTER KE RUMAH</h3>
                 </div>
 
                 <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
-                    <img src="{{asset('images/1.svg')}}" alt="Perawatan Luka" class="w-28 h-28 mb-4">
-                    <h3 class=" text-lg text-gray-900">PERAWATAN LUKA</h3>
-                </div>
-
-                 <!-- Card Layanan -->
-                <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
-                    <img src="{{asset('images/2.svg')}}" alt="Infus Vitamin" class="w-28 h-28 mb-4">
-                    <h3 class=" text-lg text-gray-900">INFUS VITAMIN</h3>
+                    <img src="{{ asset('images/3.svg') }}" alt="Khitanan di Rumah"
+                        class="w-20 h-20 sm:w-28 sm:h-28 mb-4">
+                    <h3 class="text-base sm:text-lg text-gray-900">KHITANAN DI RUMAH</h3>
                 </div>
 
                 <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
-                    <img src="{{asset('images/3.svg')}}" alt="Dokter ke Rumah" class="w-28 h-28 mb-4">
-                    <h3 class=" text-lg text-gray-900">DOKTER KE RUMAH</h3>
+                    <img src="{{ asset('images/4.svg') }}" alt="Perawatan Luka"
+                        class="w-20 h-20 sm:w-28 sm:h-28 mb-4">
+                    <h3 class="text-base sm:text-lg text-gray-900">PERAWATAN LUKA</h3>
                 </div>
 
                 <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
-                    <img src="{{asset('images/4.svg')}}" alt="Khitanan di Rumah" class="w-28 h-28 mb-4">
-                    <h3 class=" text-lg text-gray-900">KHITANAN DI RUMAH</h3>
+                    <img src="{{ asset('images/1.svg') }}" alt="Infus Vitamin"
+                        class="w-20 h-20 sm:w-28 sm:h-28 mb-4">
+                    <h3 class="text-base sm:text-lg text-gray-900">INFUS VITAMIN</h3>
                 </div>
 
                 <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
-                    <img src="{{asset('images/5.svg')}}" alt="Perawatan Luka" class="w-28 h-28 mb-4">
-                    <h3 class=" text-lg text-gray-900">PERAWATAN LUKA</h3>
+                    <img src="{{ asset('images/2.svg') }}" alt="Dokter ke Rumah"
+                        class="w-20 h-20 sm:w-28 sm:h-28 mb-4">
+                    <h3 class="text-base sm:text-lg text-gray-900">DOKTER KE RUMAH</h3>
                 </div>
 
-                <!-- Tambahkan card lainnya sesuai kebutuhan -->
+                <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
+                    <img src="{{ asset('images/3.svg') }}" alt="Khitanan di Rumah"
+                        class="w-20 h-20 sm:w-28 sm:h-28 mb-4">
+                    <h3 class="text-base sm:text-lg text-gray-900">KHITANAN DI RUMAH</h3>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center">
+                    <img src="{{ asset('images/4.svg') }}" alt="Perawatan Luka"
+                        class="w-20 h-20 sm:w-28 sm:h-28 mb-4">
+                    <h3 class="text-base sm:text-lg text-gray-900">PERAWATAN LUKA</h3>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="bg-white py-16">
         <div class="max-w-7xl mx-auto px-6">
+
+            <div class="text-center mb-10">
+                <div class="h-1 w-12 bg-teal-400 mb-4 mx-auto"></div>
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                    Apa Kata Mereka?
+                </h2>
+            </div>
+
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
                 <!-- Card 1 -->
                 <div class="bg-white rounded-2xl shadow-xl p-6 flex flex-col justify-between">
                     <!-- Header -->
                     <div class="flex justify-between items-center mb-6">
-                        <img src="{{ asset('images/pngwing.com.png') }}" alt="Company Logo" class="h-8 object-contain">
+                        <img src="{{ asset('images/pngwing.com.png') }}" alt="Company Logo"
+                            class="h-8 object-contain">
                         <img src="{{ asset('images/download.jpeg') }}" alt="User"
                             class="w-12 h-12 rounded-full object-cover">
                     </div>
                     <!-- Quote -->
-                    <p class="text-xl text-gray-900 mb-6">“They tailor their solutions to our specific needs and goals.”
+                    <p class="text-xl text-gray-900 mb-6">“They tailor their solutions to our specific needs and
+                        goals.”
                     </p>
                     <!-- Footer -->
                     <div>
@@ -311,7 +338,8 @@
                 <!-- Card 2 -->
                 <div class="bg-white rounded-2xl shadow-xl p-6 flex flex-col justify-between">
                     <div class="flex justify-between items-center mb-6">
-                        <img src="{{ asset('images/pngwing.com.png') }}" alt="Company Logo" class="h-8 object-contain">
+                        <img src="{{ asset('images/pngwing.com.png') }}" alt="Company Logo"
+                            class="h-8 object-contain">
                         <img src="{{ asset('images/download.jpeg') }}" alt="User"
                             class="w-12 h-12 rounded-full object-cover">
                     </div>
@@ -326,7 +354,8 @@
                 <!-- Card 3 -->
                 <div class="bg-white rounded-2xl shadow-xl p-6 flex flex-col justify-between">
                     <div class="flex justify-between items-center mb-6">
-                        <img src="{{ asset('images/pngwing.com.png') }}" alt="Company Logo" class="h-8 object-contain">
+                        <img src="{{ asset('images/pngwing.com.png') }}" alt="Company Logo"
+                            class="h-8 object-contain">
                         <img src="{{ asset('images/download.jpeg') }}" alt="User"
                             class="w-12 h-12 rounded-full object-cover">
                     </div>
