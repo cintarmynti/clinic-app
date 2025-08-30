@@ -16,6 +16,7 @@ Route::get('/artikel', [ArtikelController::class, 'index'])->name('artikel.index
 Route::get('/dokter', [DokterController::class, 'index'])->name('dokter.index');
 Route::get('/klinik', [KlinikController::class, 'index'])->name('klinik.index');
 Route::get('/layanan', [LayananController::class, 'index'])->name('layanan.index');
+Route::get('/layanan/{slug}', [LayananController::class, 'show'])->name('layanan.show');
 Route::get('/testimonial', [TestimonialController::class, 'index'])->name('testimonial.index');
 
 Route::get('/dashboard', function () {
